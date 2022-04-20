@@ -9,3 +9,64 @@
     --font-title: 'Passion One', Helvetica, cursive;
     --font-content: 'Sriracha', Helvetica, cursive;
 }
+
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    height: 250px;
+}
+
+h1#principal {
+    color: white;
+    font-family: var(--font-title);
+    font-size: 10em;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2#creator {
+    color: white;
+    font-family: var(--font-standard);
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    font-family: var(--font-standard);
+    font-weight: bold;
+    color: white;    
+}
+
+a.header-link:hover {
+    text-decoration: underline;
+    color: black;
+    
+    padding: 5px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+footer {
+    margin-top: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+footer > p {
+    font-family: var(--font-standard);
+    color: white;
+    text-align: center;
+
+    padding: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
