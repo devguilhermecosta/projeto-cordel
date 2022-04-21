@@ -6,8 +6,8 @@
 
 :root {
     --font-standard: sans-serif, Times;
-    --font-title: 'Passion One', Helvetica, cursive;
-    --font-content: 'Sriracha', Helvetica, cursive;
+    --font-title: 'Passion One', cursive;
+    --font-content: 'Sriracha', cursive;
 }
 
 * {
@@ -28,6 +28,7 @@ header {
 h1#principal {
     color: white;
     font-family: var(--font-title);
+    font-size: 10vw;
     font-weight: normal;
     font-variant: small-caps;
     padding-top: 50px;
@@ -65,6 +66,8 @@ section {
 section > p {
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font-content);
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -77,7 +80,8 @@ section.image {
 
 section.image > p {
     background-color: rgba(36, 35, 35, 0.384);
-    width: 300px;
+    display: inline-block;
+    padding-right: 10px;
 }
 
 footer {
