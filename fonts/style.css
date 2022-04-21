@@ -12,27 +12,33 @@
 
 * {
     margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header {
     background-color: black;
-    height: 250px;
+    text-align: center;
 }
 
 h1#principal {
     color: white;
     font-family: var(--font-title);
-    font-size: 10em;
     font-weight: normal;
-    text-align: center;
+    font-variant: small-caps;
+    padding-top: 50px;
 }
 
 h2#creator {
     color: white;
     font-family: var(--font-standard);
-    font-size: 1em;
     font-weight: normal;
-    text-align: center;
+    padding-bottom: 50px;
+    font-size: .8em;
 }
 
 header a {
@@ -49,6 +55,29 @@ a.header-link:hover {
     padding: 5px;
     background-color: white;
     border-radius: 2px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section > p {
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.image {
+    background-color: darkgray;
+}
+
+section.image > p {
+    background-color: rgba(36, 35, 35, 0.384);
+    width: 300px;
 }
 
 footer {
