@@ -68,6 +68,7 @@ section > p {
     padding-left: 30px;
     font-family: var(--font-content);
     font-size: 3.5vw;
+    padding-bottom: 100px;
 }
 
 section.normal {
@@ -78,7 +79,6 @@ section.normal > p {
     display: block;
     padding-right: 10px;
     margin-left: 10px;
-    padding-bottom: 30px;
 }
 
 section.image {
